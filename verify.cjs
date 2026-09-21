@@ -1,0 +1,1 @@
+const fs=require('node:fs'); for(const f of ['index.html','app.js','content.js','lessons.js','study.js','audiobooks.js','audiobooks-data.js','christ-song.js','sw.js','manifest.webmanifest','logo-192.png','logo-512.png']) if(!fs.existsSync('dist/'+f)) throw new Error('Arquivo ausente: '+f); console.log('Aplicativo estático pronto em dist/');

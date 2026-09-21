@@ -1,0 +1,16 @@
+{
+  "name": "Caminho de Luz",
+  "short_name": "Caminho de Luz",
+  "description": "Reflexões, estudo espírita, histórias e um caderno pessoal.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4efe6",
+  "theme_color": "#172f4f",
+  "id": "./",
+  "lang": "pt-BR",
+  "icons": [
+    {"src":"./logo-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./logo-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ]
+}

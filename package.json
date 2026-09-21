@@ -1,0 +1,13 @@
+{
+  "name": "caminho-de-luz",
+  "version": "1.4.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/verify.cjs",
+    "test": "node tests/regression.cjs",
+    "start": "python3 -m http.server 8080 --directory dist"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
